@@ -1,0 +1,40 @@
+{
+    "name": "term-align",
+    "version": "1.0.0",
+    "description": "Align text based on terminal's width.",
+    "main": "index.js",
+    "scripts": {
+        "test": "node examples",
+        "lint": "eslint .",
+        "format": "eslint . --fix"
+    },
+    "keywords": [
+        "term",
+        "align",
+        "cli",
+        "position"
+    ],
+    "author": "mrozio13pl",
+    "bugs": "https://github.com/mrozio13pl/term-align/issues",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/mrozio13pl/term-align"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/mrozio13pl/term-align",
+    "dependencies": {
+        "n-string": "^1.0.0",
+        "string-percent": "^1.0.0",
+        "string-width": "^4.2.3",
+        "widest-line": "^3.1.0",
+        "window-size": "^1.1.1"
+    },
+    "devDependencies": {
+        "chalk": "^4.1.2",
+        "eslint": "^8.46.0"
+    },
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ]
+}
