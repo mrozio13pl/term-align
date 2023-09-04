@@ -1,6 +1,6 @@
 {
     "name": "term-align",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Align text based on terminal's width.",
     "main": "index.js",
     "typings": "index.d.ts",
