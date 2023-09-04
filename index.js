@@ -17,7 +17,7 @@ function align(input, _options = {}, options = {}) {
     const lines = input.split('\n');
     const widest = widestLine(input);
 
-    if (typeof offset !== 'number' && isPercent(offset)) {
+    if (isPercent(offset, { allowNumber: false })) {
         offset = getPercent(offset) * windowWidth / 100;
     }
     
