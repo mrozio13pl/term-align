@@ -15,7 +15,7 @@ declare interface AlignmentOptions {
     /**
      * Offset to adjust the alignment.
      */
-    offset: number;
+    offset: number | string;
 
     /**
      * Text alignment within the alignment width.
@@ -32,7 +32,7 @@ declare interface AlignmentOptions {
  * @returns {String} The aligned string.
  * 
  * @example
- * ```typescript
+ * ```js
  * const align = require('term-align');
  * 
  * console.log(align('Hello, world!', 'center')); // <= centered: '      Hello, world!      '
