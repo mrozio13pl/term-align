@@ -24,7 +24,7 @@ Aligns given input.
 
 ```js
 const align = require('term-align');
- 
+
 console.log(align('Hello, world!', 'center')); // <= centered: '      Hello, world!      '
 console.log(align('Another example.', { align: 'right', offset: 1 })); // <= '        Another example. '
 console.log(align('Multiple lines\nWorks', { align: 'center', textAlign: 'right' }));

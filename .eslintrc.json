@@ -1,33 +1,16 @@
 {
     "env": {
         "commonjs": true,
-        "es2021": true,
-        "node": true
+        "node": true,
+        "es6": true
     },
-    "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": "latest"
     },
+    "extends": ["@mrozio/eslint-config"],
     "rules": {
-        "indent": [
-            "error",
-            4,
-            {
-                "SwitchCase": 1,
-                "ignoredNodes": ["ConditionalExpression"]
-            }
-        ],
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+        "max-len": "off",
+        "no-use-before-define": "off",
+        "node/no-missing-require": "off"
     }
 }

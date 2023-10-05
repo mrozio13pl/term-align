@@ -35,6 +35,7 @@
         "window-size": "^1.1.1"
     },
     "devDependencies": {
+        "@mrozio/eslint-config": "^1.0.1",
         "chalk": "^4.1.2",
         "eslint": "^8.46.0"
     }

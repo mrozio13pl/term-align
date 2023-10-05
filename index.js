@@ -12,7 +12,7 @@ function align(input, _options = {}, options = {}) {
     }
 
     var { align = 'left', offset = 0, textAlign = align } = typeof _options === 'string' ? { align: _options, offset: 0, textAlign: _options, ...options } : _options;
-    
+
     const windowWidth = windowSize.get().width;
     const lines = input.split('\n');
     const widest = widestLine(input);
@@ -20,7 +20,7 @@ function align(input, _options = {}, options = {}) {
     if (isPercent(offset, { allowNumber: false })) {
         offset = getPercent(offset) * windowWidth / 100;
     }
-    
+
     var res = '';
 
     lines.forEach((str, i) => {
