@@ -3,7 +3,7 @@
     "version": "1.0.1",
     "description": "Align text based on terminal's width.",
     "main": "index.js",
-    "typings": "index.d.ts",
+    "types": "index.d.ts",
     "repository": {
         "type": "git",
         "url": "http://github.com/mrozio13pl/term-align"
@@ -13,7 +13,7 @@
     "license": "MIT",
     "homepage": "https://github.com/mrozio13pl/term-align#readme",
     "scripts": {
-        "test": "node examples",
+        "test": "tsd",
         "lint": "eslint .",
         "format": "eslint . --fix"
     },
@@ -37,6 +37,7 @@
     "devDependencies": {
         "@mrozio/eslint-config": "^1.0.1",
         "chalk": "^4.1.2",
-        "eslint": "^8.46.0"
+        "eslint": "^8.46.0",
+        "tsd": "^0.29.0"
     }
 }
